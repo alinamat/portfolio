@@ -1,0 +1,41 @@
+/******* Style *******/
+* {
+    box-sizing:border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, sans-serif;
+    background-color: white;
+    color: #291f1a;
+    font-weight: 300px;
+    position: 100%;
+}
+
+/* General styles - end */
+
+/****Navigation start******/
+nav#main-nav {
+    width: 100%;
+    position:fixed;
+    text-align: right;
+    top: 0;
+    color: #1ac056;
+    background-color: #ffffff; 
+}
+
+nav#main-nav > ul {
+    
+}
+nav#main-nav > ul > li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+}
+
+header #main-header > img {
+    width: 100%;
+}
+
+
